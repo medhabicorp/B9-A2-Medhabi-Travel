@@ -1,0 +1,106 @@
+/* Mulish font family from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Mulish', sans-serif;
+}
+body{
+    margin: 52px 135px;
+}
+nav {
+    display: flex;
+    align-items:center;
+    justify-content: space-between; 
+    margin: 0px;
+}
+.logo-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.nav-title{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+    margin: 0px;
+}
+.logo{
+    max-width: 48px;
+    max-height: 56px;
+}
+.text-primary{
+    color: #FF5400;
+}
+nav > ul {
+    display: flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+}
+
+nav li{
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+li:first-child {
+  font-weight: 700;
+  color: #FF5400;
+}
+.frame-icon{
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+    display: none;
+
+}
+
+/* Responsive Media Query */
+@media screen and (max-width:600px) {
+    body{
+        margin: 20px;
+    }
+    nav{
+        margin: 0px;
+        flex-direction: column;
+        justify-content: lef;
+
+    }
+    .logo-title{
+        position: absolute;
+        left: 20px;
+
+    }
+    .nav-title{
+        font-size: 21.543px;        
+    }
+    nav > ul > li {
+        /* flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
+        margin-top: 30px; */
+
+        overflow: hidden;
+        background-color: #fff;
+        position: relative;
+        display: none;
+    }
+    .frame-icon{
+        overflow: hidden;
+        background-color: #fff;
+        position: absolute;
+        display: block;
+        right: 0px;
+        top: 30px;
+    
+}
+
+
