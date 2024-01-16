@@ -1,12 +1,15 @@
 /* Mulish font family from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;500;600;700;800;900&display=swap');
 
+/* shared styles */
 *{
     font-family: 'Mulish', sans-serif;
 }
 body{
     margin: 52px 135px;
 }
+
+/* header related styles */
 nav {
     display: flex;
     align-items:center;
@@ -63,6 +66,71 @@ li:first-child {
 
 }
 
+/* banner section styles */
+.banner-section{
+    background: linear-gradient(#131318, #13131800), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 106px;
+
+}
+.banner-title{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.section-description{
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    max-width: 676px;
+    margin-top: 0cqh;
+    margin-bottom: 48px;
+}
+.input-container{
+    border-radius: 8px;
+    background: #ffffff4d;
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+
+}
+input, select, button {
+    border:none;
+    background-color: #fff;
+    padding: 16px 15px;
+    border-radius:8px;
+    min-width: 174px;
+    max-height: 52px;
+}
+
+button{
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(8, 156, 190);
+}
+
 /* Responsive Media Query */
 @media screen and (max-width:600px) {
     body{
@@ -99,8 +167,9 @@ li:first-child {
         position: absolute;
         display: block;
         right: 0px;
-        top: 30px;
-    
+        top: 30px;    
+}
+
 }
 
 
