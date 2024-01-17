@@ -102,19 +102,30 @@ nav a, li{
 .input-container{
     border-radius: 8px;
     background: #ffffff4d;
-    display: flex;
     padding: 16px;
-    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     gap: 24px;
-
+    align-items: center;
 }
-input {
+.input-container > input [type="text"] {
+    border:none;
+    background-color: #fff;
+    padding: 16px 15px;
+    border-radius: 8px;
+    min-width: 174px;
+    max-height: 52px;
+    margin: 0px;
+}
+input[type="date"]{
     border:none;
     background-color: #fff;
     padding: 16px 15px;
     border-radius:8px;
     min-width: 174px;
     max-height: 52px;
+    margin: 0px;
 }
 
 button {
@@ -238,10 +249,15 @@ button:hover{
 
 .feature-container{
     display: grid;
-    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
     gap: 24px;
-    text-align: left;
-    
+    text-align: left;   
+}
+.feature-cont-2{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
 }
 .feature-1{
     border-radius: 16px;
@@ -272,17 +288,22 @@ button:hover{
 /* newsletter-section */
 .newsletter-section{
     margin-top:100px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    align-items: center;
     gap: 24px;
 }
 .newsletter-container{
-    border: 1px solid #FF5400;
+    width: 60%;
 }
-
+.save-up-to-image{
+    width: 50%;
+    height: auto%;
+}
+.save-up-to-image > img{
+    min-height: 440px;
+}
 form {
-    border: 3px solid #f1f1f1;
-    font-family: Arial;
+    border: 1px solid #FF5400;
   }
   
   .container {
@@ -292,17 +313,15 @@ form {
   
   input[type=text], input[type=submit] {
     width: 100%;
+    min-height: 52px;
     padding: 12px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+    border-radius: 8px;
   }
-  
-  input[type=checkbox] {
-    margin-top: 16px;
-  }
-  
+
   input[type=submit] {
     background-color: #FF5400;
     color: white;
@@ -318,13 +337,12 @@ form {
     position: relative;
   }
   .save{
-    padding: 24px 32px;
+    padding: 40px 32px;
     background-color: #FF5400;
     color:#fff;
     font-size: 32px;
     text-align: center;
     margin-bottom: 0px;
-    max-width: 50%;
     width: 324px;
     height: 60px;
     border-radius: 8px;
@@ -396,6 +414,10 @@ input {
     min-width: 255px;
     max-height: 52px;
 }
+input[type="date"] {
+    min-width: 255px;
+    max-height: 52px;
+}
 #search-btn{
     min-width: 255px;
     max-height: 52px;
@@ -406,10 +428,13 @@ input {
 
 }
 .popular-img>img{
-    margin-left: 20px;
-    min-width: 335px;
-    min-height: auto;
+    width: 100%;
+    height: auto;
+}
 
+#popular-img{
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -443,7 +468,40 @@ input {
 .feature-title{
     font-size: 20px;
 }
+.why-choose-us, .destination-section, .simple-perfect-section, .newsletter-section, .popular-tour-section {
+    margin-top: 24px;
+}
+.simple-perfect-title, .popular-section-title{
+    font-size: 20px;
 }
 
+.newsletter-section{
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.newsletter-container{
+    width: 100%;
+}
 
+#popular-img img{
+    max-width: 500px;
+    height: auto;
+}
+.save-up-to-image{
+    border-radius: 16px;
+    position: relative;
+    left: -25%;
+    max-width: 100%;
+
+  }
+  .save{
+    top: 30%;
+    left: 35%;
+}
+.save-up-to-image > img{
+    max-width: 500px;
+    min-height: 335px;
+}
+}
 
