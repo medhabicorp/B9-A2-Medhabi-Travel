@@ -233,6 +233,9 @@ button:hover{
     text-align: center;
     color: white;
 }
+.simple-perfect-image> img{
+    min-width: ;
+}
 .country-name, .mountain-name{
     position: absolute;
     top: 50%;
@@ -293,14 +296,14 @@ button:hover{
     gap: 24px;
 }
 .newsletter-container{
-    width: 60%;
+    width:50%;
 }
 .save-up-to-image{
-    width: 50%;
+    width: 45%;
     height: auto;
 }
 .save-up-to-image > img{
-    min-width: 100%;
+    max-width: 100%;
     min-height: 440px;
 }
 form {
