@@ -303,7 +303,7 @@ button:hover{
     height: auto;
 }
 .save-up-to-image > img{
-    max-width: 100%;
+    min-width: 100%;
     min-height: 440px;
 }
 form {
@@ -548,7 +548,7 @@ input[type="date"] {
     border-radius: 16px;
     position: relative;
     left: -25%;
-    max-width: 100%;
+    width: 100%;
 }
 .save-up-to-image>img{
     max-width: 445px;
