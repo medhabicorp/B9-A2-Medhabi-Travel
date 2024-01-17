@@ -509,7 +509,7 @@ input[type="date"] {
     
 }
 .country-container>img{
-    max-width: 531px;
+    max-width: 100%;
     max-height: 278px;
 }
 /* why choose us section responsive */
@@ -529,7 +529,7 @@ input[type="date"] {
     font-size: 20px;
 }
 .simple-perfect-image >img{
-    min-width: 531px;
+    max-width: 100%;
     max-height: 250px;
 }
 
