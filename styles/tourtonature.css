@@ -506,8 +506,8 @@ input[type="date"] {
     
 }
 .country-container>img{
-    max-width: 496px;
-    max-height: 250px;
+    max-width: 531px;
+    max-height: 278px;
 }
 /* why choose us section responsive */
 
@@ -526,7 +526,8 @@ input[type="date"] {
     font-size: 20px;
 }
 .simple-perfect-image >img{
-    max-width: 496px;
+    min-width: 531px;
+    max-height: 250px;
 }
 
 /* newsletter section responsive */
@@ -547,8 +548,8 @@ input[type="date"] {
     max-width: 100%;
 }
 .save-up-to-image>img{
-    max-width: 496px;
-    max-height: 150px;
+    max-width: 531px;
+    max-height: 278px;
 }
   .save{
     top: 30%;
