@@ -395,6 +395,8 @@ form {
 @media screen and (max-width:600px) {
     body{
         margin: 20px;
+
+        /* header section responsive */
     }
     nav{
         margin: 0px;
@@ -459,6 +461,8 @@ input[type="date"] {
     min-width: 255px;
     max-height: 52px;
 }
+
+/* popular section responsive */
 .popular-tour-section, .simple-perfect-section{
     flex-direction: column;
     justify-content: center;
@@ -473,8 +477,7 @@ input[type="date"] {
     max-width: 100%;
     height: auto;
 }
-
-
+/* this is a common section description for some section */
 .section-description{
     font-size: 0.75rem;
     font-weight: 400;
@@ -486,6 +489,8 @@ input[type="date"] {
 .section-title{
     font-size: 20px;
 }
+
+/* image collage responsive */
 
 .row {
     flex-direction: column;
@@ -499,18 +504,24 @@ input[type="date"] {
     max-height: 250px;
 }
 
+/* why choose us section responsive */
+
 .feature-container{
     grid-template-columns: 1fr;
 }
 .feature-title{
     font-size: 20px;
 }
+
+/* this is common style shared for all sections */
 .why-choose-us, .destination-section, .simple-perfect-section, .newsletter-section, .popular-tour-section, .footer {
     margin-top: 24px;
 }
 .simple-perfect-title, .popular-section-title{
     font-size: 20px;
 }
+
+/* newsletter section responsive */
 
 .newsletter-section{
     flex-direction: column;
@@ -539,6 +550,8 @@ input[type="date"] {
     max-width: 500px;
     min-height: 335px;
 }
+
+/* footer responsive */
 
 .footer>.logo-title>img{
     margin-top: 35px;
